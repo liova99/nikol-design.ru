@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <!-- InstanceBeginEditable name="doctitle" -->
+<title>nikol design - contacts</title>
+<script type='text/javascript' src="clearbox.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+
+
+
+
+<!-- InstanceEndEditable -->
+    
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <!--END TEMPALATE -->
+    
+    <!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+
+</head>
+
+<body>
+<div id="top">
+    <div id="l_menu">
+            
+    <div id="menu">
+        <ul>
+            <li class="current"><a class="transition" href="index.html">home</a></li>
+            <li><a class="transition" href="resume.html">resume</a></li></ul>
+    
+        <ul>
+            <li><a class="transition" href="#">design</a>
+    
+                <ul> 
+                    <li> <a href="portfolio/design/index.html">graph design</a></li>
+                    <li> <a href="portfolio/concept/index.html">concept</a></li>
+                </ul>
+             </li>
+        </ul>
+    
+        <ul>
+    
+            <li><a class="transition" href="#">art</a>
+    
+                <ul> 
+                    <li> <a href="portfolio/painting/index.html">painting</a>   </li>
+                    <li> <a href="portfolio/photo/index.html">photo</a>   </li>
+                </ul>
+           </li>
+       </ul>
+    
+        <ul>
+    
+            <li><a class="transition" href="contact.html">contacts</a></li>
+        </ul>
+    </div>
+    
+    </div>
+                    
+    <div id="wraper">
+       <!-- <div id="in_baner"> <img src="../img/baner_small_1050.png">-->
+        </div>    
+            
+        <!-- InstanceBeginEditable name="EditRegion3" -->
+          <div id=contacts><h1>Кяляшова Нина Алексеевна</h1>
+            <a href="mailto:nikol.designer@gmail.com">&nbsp;nikol.designer@gmail.com</a>
+            <h1 class="contacts_h2">+7 926 130 6228</h1>
+   
+    
+	    </div>
+        
+  <div style="height:500px;">  
+  
+    <div id=contact-form onMouseOver="MM_changeProp('contact-form','','border','#fff 1px solid','DIV')" onMouseOut="MM_changeProp('contact-form','','border','#999 1px solid','DIV')">
+    
+    <form action="mailform.php" method="post">
+ <h3>
+        <label for="name">Ваше Имя:*</label>  </h3>
+    <input name="name" type="text" id="name">
+    <form name="form1" method="post" action="">
+      <h3>
+        <label for="mail">Ваш Майл</label>
+        *
+      </h3>
+      <p>
+        <input type="text" name="mail" id="mail">
+    </p>
+      <h3>
+        <label for="text">Ваше Сообщение:*</label></h3>
+        <p>
+          <textarea name="text" id="text" cols="30" rows="10"></textarea>
+          
+        </p>
+        <p>&nbsp;</p>
+        
+          <input name="send" type="submit" id="send" onClick="MM_validateForm('name','','R','mail','','RisEmail','text','','R');return document.MM_returnValue" value="Отправить">
+      
+    </form>
+    
+    </div>
+    
+  
+    
+    
+    </div>
+    
+    
+     
+    
+    
+      <!-- InstanceEndEditable -->
+        
+    </div>
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

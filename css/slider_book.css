@@ -1,0 +1,29 @@
+/* CSS Document */
+
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 13px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.top {
+	background-color: #FFE7B5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9900;
+	padding-left: 3px;
+	margin-bottom: 2px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	position: relative;
+	overflow: hidden;
+}
+-->
+</style>
