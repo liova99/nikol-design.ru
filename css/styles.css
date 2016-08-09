@@ -186,11 +186,11 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 	padding:2px;
 	margin:0 auto;
 	font-size: 14%;
-<!--	border:1px #ccc solid;
+/* 	border:1px #ccc solid;
 	-webkit-border-radius:7px;
 	-moz-border-radius:7px;
 	border-radius:7px;
--->
+*/
 
 }
 
@@ -201,7 +201,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 #menu ul {margin:0; padding:0;}
 #menu li { display:inline; position:relative; margin:0; padding:0; list-style:none; float:left; }
 #menu ul li ul li {width:150px;}
-#menu ul li a { text-decoration:none; display:block; margin-left:40px; color:#747474; font-family:"Myriad Pro"; display:inline;  }
+#menu ul li a { text-decoration:none; margin-left:40px; color:#747474; font-family:"Myriad Pro"; display:inline;  }
 #menu ul li a:hover { color:#CCC;  }
 #menu ul ul  { position:absolute; visibility:hidden;}
 #menu ul li:hover ul { visibility:visible;}
@@ -210,13 +210,35 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 
 
 
-#resume { width:700px;  margin:auto; padding:10px 0px;  background-image:url(../img/resume_font.png); }
+#resume { width:80%; min-width:1050px;  margin:auto;  background-image:url(../img/resume_font.png); }
+#resume_left_column {
+	background-image:url(../img/resume_font.png);
+	width:50%;
+	margin:auto;
+	padding:1.5em;
+	float:left;
+	}
+#resume_right_column {
+	background-image:url(../img/resume_font.png);
+	width:35%;
+	margin:auto;
+	float:right;
+	padding:1.5em;}
 
-#resume_text { width:650px; margin:auto;} 
-#resume_text p, strong {color:#FFFFFF;}
-#resume_text ul {color:#FFFFFF;}
-#resume_text ul, li {margin:-1px;}
-
+.resume_headlines {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+	font-size:1.2em;
+	font-weight:bold;
+	font-style:italic;
+	}
+.resume_text_head {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:1.2em;
+	
+}
+.resume_text {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
 
 
 
