@@ -303,6 +303,17 @@ div#resume_signature p {
 
 #p_box_graph {width:500px; height:500px; float:left;} 
 
+.hero_img{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	width:75%;
+	height:auto;
+	margin:10px auto;}
+
+div.hero_img img {
+	width:100%;
+	height:auto;}
+
+
 .box_200 {
 	float:left;
 	width:200px;
@@ -313,9 +324,7 @@ div#resume_signature p {
    }
 .box_200:hover {
 		 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
 	}
-
 .box_250 {float:left; width:250px; height:200px; margin:5px;}
 
 #pi_content { height:1300px;}
