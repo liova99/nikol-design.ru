@@ -240,7 +240,33 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
+#resume_bottom {
+	margin:180px 0;
+	width:400px;
+	height:125px;
+	float:right;}
 
+
+#resume_signature {
+	width:180px;
+	height:150px;
+	display:inline-block;
+	display:-webkit-inline-box;
+	position:relative;
+}
+div#resume_signature img {
+	position:absolute;
+	top:-47px;
+	left:-50px;}
+	
+div#resume_signature p {
+	position:absolute;
+	z-index:100;}
+
+#resume_img {
+	width:152px;
+	height:110px;
+	float:right;}
 
 
 #in_baner { opacity:0,5; height:400px; }
@@ -308,6 +334,22 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 #nav_d ul li { list-style-type:none; }
 #nav_d  ul li a { display:block; float:left; border:1px #ccc solid; padding:0px 6px; margin:5px 7px; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; text-decoration:none; color:#000; background-color:#B5B5B5; }
 #nav_d ul li a:hover { background-color:#ccc;}
+
+	/*************** interior *************************************************/
+	
+.interior_wrraper{}
+
+.interior_img{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	width:75%;
+	height:auto;
+	margin:10px auto;}
+
+div.interior_img img {
+	width:100%;
+	height:auto;}
+
+
 
 
 

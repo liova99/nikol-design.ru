@@ -49,22 +49,23 @@
             
         <div id="menu">
             <ul>
-                <li class="current"><a class="transition" href="../index.html">home</a></li>
-                <li><a class="transition" href="../resume.html">resume</a></li></ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a  href="../resume.html">resume</a></li></ul>
         
             <ul>
-                <li><a class="transition" href="#">design</a>
+                <li><a href="#">design</a>
         
                     <ul> 
                         <li> <a href="../portfolio/design/index.html">graph design</a></li>
                         <li> <a href="../portfolio/concept/index.html">concept</a></li>
+                        <li> <a href="#" >interior</a></li>
                     </ul>
                  </li>
             </ul>
         
             <ul>
         
-                <li><a class="transition" href="#">art</a>
+                <li><a href="#">art</a>
         
                     <ul> 
                         <li> <a href="../portfolio/painting/index.html">painting</a>   </li>
@@ -75,7 +76,7 @@
         
             <ul>
         
-                <li><a class="transition" href="../contact.html">contacts</a></li>
+                <li><a href="../contact.html">contacts</a></li>
             </ul>
         </div>
     
