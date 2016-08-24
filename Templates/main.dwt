@@ -56,9 +56,11 @@
                 <li><a href="#">design</a>
         
                     <ul> 
-                        <li> <a href="../portfolio/design/index.html">graph design</a></li>
                         <li> <a href="../portfolio/concept/index.html">concept</a></li>
                         <li> <a href="../portfolio/interior/index.html" >interior</a></li>
+                        <li> <a href="../portfolio/design/index.html">graph design</a></li>
+                        <li> <a href="../portfolio/commercial/index.html">commercial</a></li>
+
                     </ul>
                  </li>
             </ul>
@@ -68,8 +70,9 @@
                 <li><a href="#">art</a>
         
                     <ul> 
-                        <li> <a href="../portfolio/painting/index.html">painting</a>   </li>
-                        <li> <a href="../portfolio/photo/index.html">photo</a>   </li>
+                        <li> <a href="../portfolio/photo/index.html">photo</a> </li>
+                        <li> <a href="../portfolio/painting/index.html">painting</a> </li>
+                    	<li> <a href="../portfolio/illustration/index.html">illustration </a> </li>
                     </ul>
                </li>
            </ul>
