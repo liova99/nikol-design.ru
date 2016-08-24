@@ -382,7 +382,7 @@ margin-top:20px;
 
 
 						/*Flash*/
-#p_content {height:1000px; width:960px; margin:0 auto; }
+#p_content {display:table; width:960px; margin:0 auto 50px auto; }
 #p2_content { height:1300px;}
 #p_content_ind {height:500px;}
 
@@ -396,7 +396,7 @@ margin-top:20px;
 #p_sport    {width:160px; height:25px; float:left; margin-left:410px; }
 
 @media all and (max-width: 960px) {
-	#p_content {height:1000px; width:500px; margin:0 auto;
+	#p_content {display:table; width:500px; margin:0 auto 50px auto;
 }
 
 	}
