@@ -4,6 +4,7 @@
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- InstanceBeginEditable name="doctitle" -->
 <title>nikol design - contacts</title>
@@ -114,8 +115,8 @@ function MM_validateForm() { //v4.0
     </div>
                     
         <!-- InstanceBeginEditable name="EditRegion3" -->
-          <div id=contacts><h1>Кяляшова Нина Алексеевна</h1>
-            <a href="mailto:nikol.designer@gmail.com">&nbsp;nikol.designer@gmail.com</a>
+          <div id="contacts"><h1>Кяляшова Нина Алексеевна</h1>
+            <h1  class="contacts_h2">nikol.designer@gmail.com</h1>
             <h1 class="contacts_h2">+7 926 130 6228</h1>
    
     
@@ -123,24 +124,24 @@ function MM_validateForm() { //v4.0
         
   <div style="height:500px;">  
   
-    <div id=contact-form onMouseOver="MM_changeProp('contact-form','','border','#fff 1px solid','DIV')" onMouseOut="MM_changeProp('contact-form','','border','#999 1px solid','DIV')">
+    <div id="contact-form" >
     
     <form action="mailform.php" method="post">
  <h3>
         <label for="name">Ваше Имя:*</label>  </h3>
-    <input name="name" type="text" id="name">
+    <input name="name" type="text" id="name" required>
     <form name="form1" method="post" action="">
       <h3>
         <label for="mail">Ваш Майл</label>
         *
       </h3>
       <p>
-        <input type="text" name="mail" id="mail">
+        <input type="text" name="mail" id="mail" required>
     </p>
       <h3>
         <label for="text">Ваше Сообщение:*</label></h3>
         <p>
-          <textarea name="text" id="text" cols="30" rows="10"></textarea>
+          <textarea name="text" id="text" cols="30" rows="10" required></textarea>
           
         </p>
         <p>&nbsp;</p>

@@ -373,24 +373,54 @@ div.hero_img img {
 
 
 
-					/*Contacts */
-#contact-form {float:left; margin-left:50px; width:280px;  padding:5px; border:#999 1px solid;
-margin-top:20px; 
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-   border-radius: 6px;  }
+					/*Contact */
+#contact-form {
+	width:350px;
+	padding:5px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin:20px auto;
+}
 
-#contact-form h3 {color:#FFFFFF; font-family:"Myriad Pro"; font-weight:300; padding:5px;}
+div#contact-form h3 {color:#747474; font-family:"Myriad Pro"; font-weight:300; padding:5px;}
+
+#name {width:200px;}
+#mail {width:200px;}
+#text {width:250px;}
+
+form input#name,
+form input#mail,
+form textarea#text {
+		font-family:"Myriad Pro";
+		font-size:1.3em;
+		border:2px solid #747474;
+		border-radius:4px;
+		background-color:#F7F7F7;
+		color:#747474;
+		padding:.2em;
+}
+
+form input#name:hover,
+form input#mail:hover,
+form textarea#text:hover {
+	border-color:#9E9E9E;
+}
+
+form input#name:focus,
+form input#mail:focus,
+form textarea#text:focus: {
+	border-color:#9E9E9E;
+}
+
    
 #contacts   {float:left; color:#FFFFFF; margin-left:10px; font-family:"Myriad Pro"; padding:5px;}
-#contacts p {color:#fff;}   
-#contacts h1 {font-family:"Myriad Pro"; font-weight:100;}
-#contacts a	{color:#515151; font-family:"Myriad Pro"; font-weight:100; text-decoration:none; font-size:18px;}
-#contacts a:hover {color:#fff;}
+div#contacts p {color:#fff;}   
+div#contacts h1 {font-family:"Myriad Pro"; font-weight:100;}
+div#contacts a	{color:#515151; font-family:"Myriad Pro"; font-weight:100; text-decoration:none; font-size:18px;}
+div#contacts a:hover {color:#fff;}
 
 .contacts_h2 {font-size:18px; margin:5px 0;}  
-   
-
 
 						/*Flash*/
 #p_content {display:table; width:960px; margin:0 auto 50px auto; }
@@ -406,8 +436,51 @@ margin-top:20px;
 #p_election { width:120px; height:25px; margin-left:50px; float:left; }
 #p_sport    {width:160px; height:25px; float:left; margin-left:410px; }
 
-@media all and (max-width: 960px) {
-	#p_content {display:table; width:500px; margin:0 auto 50px auto;
+@media all and (max-width: 1000px) {
+	#contact-form {display:inline-block;}
 }
 
+@media all and (max-width: 960px) and (min-width:730px){
+	#p_content {display:table; width:730px; margin:0 auto 50px auto;
 	}
+}
+
+@media all and (max-width: 729px) and (min-width:605px){
+	#p_content {width:80%;
+	}
+	.box_200 {
+	width:25%;
+	height:auto;
+   }
+}
+@media all and (max-width: 605px) and (min-width:350px){
+	#p_content {width:100%;
+	}
+	.box_200 {
+	width:37%;
+	height:auto;
+   }
+}
+
+
+@media all and (max-width: 349px) and (min-width:269px){
+	#p_content {width:100%;
+	}
+
+	.box_200 {
+	width:35%;
+	height:auto;
+   }
+
+}
+@media all and (max-width: 268px){
+	#p_content {width:100%;
+	}
+
+	.box_200 {
+	width:30%;
+	height:auto;
+	margin:10px 20px;
+   }
+
+}
