@@ -12,6 +12,15 @@ body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
 	vertical-align:baseline;
 	font-family: inherit;
 }
+
+
+#index_wrraper {}
+#index_body {
+	background-image: url(../img/index_hero.png);
+	height: 100vh;
+}
+
+
 article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
 body {line-height:1.5;background:white;}
 blockquote:before, blockquote:after, q:before, q:after {content:'';}
@@ -180,9 +189,8 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 
 #top { width:100%; height:100%; background-color:#FFFFFF;  padding:30px 0; overflow-x: hidden; } /*background-image:url(../img/bg_pat.png);*/
 
-#wraper {
+#wrraper {
 	height:auto;
-	width:1050px;
 	padding:2px;
 	margin:0 auto;
 	font-size: 14%;
@@ -282,8 +290,8 @@ div#resume_signature p {
 
 /************************************************************88*/
 
-#in_baner { opacity:0,5; height:400px; }
-#baner_image {border-radius: 10px;}
+#in_baner { height: auto; width: 85%; margin: 70px auto; }
+#baner_image {width:100%;}
 
 #in_1 { width:1000px; height:40px; margin-left:25px; border-bottom:2px #ccc solid;}
 #in_1 a {text-decoration:none; font-size:22px; color:#515151;}

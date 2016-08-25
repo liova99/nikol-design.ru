@@ -8,7 +8,7 @@
     
     <!-- TemplateBeginEditable name="doctitle" -->
     <title>nikol design</title>
-    <script type='text/javascript' src="clearbox.js"></script>
+    <script type="text/javascript" src="clearbox.js"></script>
     <script type="text/javascript">
 		function MM_preloadImages() { //v3.0
 		  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
