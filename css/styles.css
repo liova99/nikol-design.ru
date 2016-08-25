@@ -375,7 +375,7 @@ div.hero_img img {
 
 					/*Contact */
 #contact-form {
-	width:350px;
+	width:280px;
 	padding:5px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -422,6 +422,28 @@ div#contacts a:hover {color:#fff;}
 
 .contacts_h2 {font-size:18px; margin:5px 0;}  
 
+
+#send_msg_btn {
+	border: 2px solid #747474;
+    color: #ffffff;
+    background-color: #747474;
+    font-family: "courie new";
+    font-size: larger;
+    padding: 0.2em;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0.3em 2em;
+    cursor: pointer;
+}
+
+#send_msg_btn:hover {
+	opacity: .9;	
+}
+
 						/*Flash*/
 #p_content {display:table; width:960px; margin:0 auto 50px auto; }
 #p2_content { height:1300px;}
@@ -436,34 +458,34 @@ div#contacts a:hover {color:#fff;}
 #p_election { width:120px; height:25px; margin-left:50px; float:left; }
 #p_sport    {width:160px; height:25px; float:left; margin-left:410px; }
 
-@media all and (max-width: 1000px) {
-	#contact-form {display:inline-block;}
+@media all and (max-width: 1000px) and (min-width: 730px){
+	
+	#contact-form {display:block; margin:120px auto 25px auto; }
 }
 
 @media all and (max-width: 960px) and (min-width:730px){
+	
 	#p_content {display:table; width:730px; margin:0 auto 50px auto;
 	}
 }
 
 @media all and (max-width: 729px) and (min-width:605px){
-	#p_content {width:80%;
-	}
-	.box_200 {
-	width:25%;
-	height:auto;
-   }
+	
+	#contact-form { display:block; margin:120px auto 25px auto;}
+	#p_content {width:80%;}
+	.box_200 {width:25%; height:auto;}
 }
 @media all and (max-width: 605px) and (min-width:350px){
-	#p_content {width:100%;
-	}
-	.box_200 {
-	width:37%;
-	height:auto;
-   }
+	
+	#contact-form { display:block; margin:120px auto 25px auto;}
+	#p_content {width:100%;}
+	.box_200 {width:37%; height:auto; }
 }
 
 
 @media all and (max-width: 349px) and (min-width:269px){
+	#contact-form { display:block; margin:120px auto 25px auto;}
+
 	#p_content {width:100%;
 	}
 
@@ -474,6 +496,8 @@ div#contacts a:hover {color:#fff;}
 
 }
 @media all and (max-width: 268px){
+		#contact-form { display:block; margin:120px auto 25px auto;}
+
 	#p_content {width:100%;
 	}
 
