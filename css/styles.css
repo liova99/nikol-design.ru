@@ -277,6 +277,8 @@ div#resume_signature p {
 	width:152px;
 	height:110px;
 	float:right;}
+	
+#resume_960 {display:none;}
 
 /************************************************************88*/
 
@@ -458,6 +460,101 @@ div#contacts a:hover {color:#fff;}
 #p_election { width:120px; height:25px; margin-left:50px; float:left; }
 #p_sport    {width:160px; height:25px; float:left; margin-left:410px; }
 
+/*********** media queries *******************************/
+
+/******** top menu ******************/
+@media all and (max-width: 869px) and (min-width: 400px) {
+	#menu {
+	    float: left; 
+	    margin-top: 20px;
+	    width: 600px;
+	    margin: 0 auto;
+	}
+	div#menu ul li a {
+	    text-decoration: none;
+	    margin-left: 28px;
+	    color: #747474;
+	    font-family: "Myriad Pro";
+	    display: inline;
+	    font-size: 1.5em;
+	}
+	div#menu ul li ul li {
+	    width: 150px;
+	}
+
+}
+
+@media all and (max-width: 399px) {
+	#menu {
+	    margin-top: 0px;
+	}
+	div#menu ul li a {
+	    text-decoration: none;
+	    margin-left: 8px;
+	    color: #747474;
+	    font-family: "Myriad Pro";
+	    display: inline;
+	    font-size: 1.5em;
+	}
+	div#menu ul li ul li {
+	    width: 150px;
+	}
+
+}
+
+
+/**** Resume page    *****/
+@media only screen and (max-width: 1024px) and (min-width: 870px )and (orientation: landscape) {
+	.resume_hero { display: none; }
+	#print_ico { display: none; }
+	#resume_960 {display: block; }
+	.resume_text { font-size: 1.2em; }
+
+	#resume_left_column {
+    width: 65%;
+    margin: auto;
+    padding: 1.5em;
+    float: none;
+    font-size: 1.5em;
+	}
+
+}
+
+@media only screen and (max-height: 600px) and  (max-width: 700px) and (orientation: landscape) {
+
+		.resume_hero { display: none; }
+		#print_ico { display: none; }
+		#resume_960 {display: block; }
+		.resume_text { font-size: 1.2em; }
+		.resume_text { font-size: 1.2em; }
+		#resume_left_column {
+		    width: 85%;
+		    margin: auto;
+		    padding: 1em;
+		    float: none;
+		    font-size: 1em;
+		}
+}
+
+
+@media all and (max-width: 869px) and (min-width: 250px) {
+
+	.resume_hero { display: none; }
+	#print_ico { display: none; }
+	#resume_960 {display: block; }
+	.resume_text { font-size: 1.2em; }
+
+	#resume_left_column {
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+    float: none;
+    font-size: 1em;
+	}
+}
+
+
+
 @media all and (max-width: 1000px) and (min-width: 730px){
 	
 	#contact-form {display:block; margin:120px auto 25px auto; }
@@ -496,15 +593,8 @@ div#contacts a:hover {color:#fff;}
 
 }
 @media all and (max-width: 268px){
-		#contact-form { display:block; margin:120px auto 25px auto;}
 
-	#p_content {width:100%;
-	}
-
-	.box_200 {
-	width:30%;
-	height:auto;
-	margin:10px 20px;
-   }
-
+	#contact-form { display:block; margin:120px auto 25px auto;}
+	#p_content {width:100%;	}
+	.box_200 {width:30%; height:auto; margin:10px 20px; }
 }
