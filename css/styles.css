@@ -16,8 +16,10 @@ body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
 
 #index_wrraper {}
 #index_body {
+	overflow: hidden;
 	background-image: url(../img/bg.jpg);
-	height: 100vh;
+	height: 700px;
+	min-height: 100vh;
 	background-size:cover;
 	
 }
@@ -204,7 +206,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Colo
 
 }
 
- #l_menu { width:900px; height:150px; margin:auto; } 
+ #l_menu { width:900px; height:150px; margin:10px auto 5px auto; } 
 
 
 #menu { float:left; margin-top:50px; width:600px; }
@@ -489,7 +491,7 @@ div#contacts a:hover {color:#fff;}
 	    font-size: 1.5em;
 	}
 	div#menu ul li ul li {
-	    width: 150px;
+	    width: 165px;
 	}
 
 }
@@ -507,7 +509,7 @@ div#contacts a:hover {color:#fff;}
 	    font-size: 1.5em;
 	}
 	div#menu ul li ul li {
-	    width: 150px;
+	    width: 165px;
 	}
 
 }
