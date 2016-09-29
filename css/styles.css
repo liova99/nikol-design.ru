@@ -29,7 +29,7 @@ article, aside, details, figcaption, figure, dialog, footer, header, hgroup, men
 body {line-height:1.5;background:white;}
 blockquote:before, blockquote:after, q:before, q:after {content:'';}
 blockquote, q {quotes:"" "";}
-a img {border:none;}
+a img {border:none; width: 100%; height: auto;}
 :focus {outline:0;}
 
 /* typography.css */
@@ -169,7 +169,7 @@ dd {margin-left:1.5em;}
 
 
 
-.shadow {
+.shadow_not_used {
 
 -moz-box-shadow: 3px 3px 4px #000;
 
@@ -465,6 +465,7 @@ div#contacts a:hover {color:#fff;}
 
 
 
+
 #p_flash {  width:900px; height:400px; margin:20px 70px;}
 .p_flash {  width:900px; height:400px; margin:20px 70px;}
 .p_title {border-bottom:2px #ccc solid; margin-left:50px}
@@ -565,7 +566,7 @@ div#contacts a:hover {color:#fff;}
 	}
 }
 
-
+/***** Media content ******/
 
 @media all and (max-width: 1000px) and (min-width: 730px){
 	
