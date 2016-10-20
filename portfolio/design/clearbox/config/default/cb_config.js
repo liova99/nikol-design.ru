@@ -38,7 +38,7 @@ var
 	CB_CloseBtn2Right=-30,				// horizontal position of the close button in content mode
 
 	CB_OSD='on',					// turns on OSD
-	CB_OSDShowReady='off',				// when clearbox is loaded and ready, it shows an OSD message
+	CB_OSDShowReady='on',				// when clearbox is loaded and ready, it shows an OSD message
 
 // CB font, text and navigation (at the bottom of CB window) settings:
 
